@@ -20,18 +20,7 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
     - name: Generate snake game
       run: python generate_snake.py # Seu script Python que gera a cobrinha
 
-    - name: Commit and push changes
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
-        git commit -m 'Update snake game'
-        git push "https://${GH_TOKEN}@github.com/${{ github.repository }}.git"
+   
