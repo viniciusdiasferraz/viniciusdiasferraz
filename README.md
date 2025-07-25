@@ -58,3 +58,13 @@
   <img align= 'center' alt='Swagger' src= 'https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white' />
 </div></br>
 
+
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/viniciusdiasferraz/viniciusdiasferraz/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/viniciusdiasferraz/viniciusdiasferraz/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/viniciusdiasferraz/viniciusdiasferraz/output/pacman-contribution-graph.svg">
+</picture>
+
+###
